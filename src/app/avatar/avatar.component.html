@@ -1,0 +1,21 @@
+<div class="box2" >
+    <!-- [@moveFromBottom] -->
+    <div class="sub-box1">
+        <h1 class="heading1">Hello {{name}}!</h1>
+        <p class="sub-heading">Choose your avatar</p>
+    </div> 
+    <div class="avatars-box">
+        <div class="avatar-subblock ">
+            <form #form2="ngForm" class="form2">
+                <div class="avatar-container" *ngFor="let img of imgSrc let i = index" 
+                [ngStyle]="{'transform': selectedDivIndex === i ? 'scale(1.2)' : 'scale(0.8)'}"
+                (click)="selectedDivIndex = i">
+                    <img class="avatar-images" [src]="img" (click)="onAvatarSelected(img)">
+                    <input type="radio" name="img" [value]="img" hidden [(ngModel)] = "avatar" required>
+
+                </div>
+                <button type="submit" [disabled]="!form2.valid" (click)="onSubmit()">Next</button>
+            </form>
+        </div>
+    </div>
+</div>

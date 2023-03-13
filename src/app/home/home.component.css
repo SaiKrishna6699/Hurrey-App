@@ -1,0 +1,334 @@
+.box1 {
+    --border-radius: 52.5px;
+    --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+    --color1: linear-gradient(#000000, #000000);
+    --color2: liner-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) box-sizing: border-box;
+    position: absolute;
+    left: 32.86%;
+    right: 32.86%;
+    top: 32.96%;
+    bottom: 32.96%;
+
+    border: solid 1.5px transparent;
+    border-radius: 30px;
+    background-image: var(--color1), var(--gradient-color1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.logo1 {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* width: 76%;
+    height: 79%; */
+}
+
+.logo1>img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: zoom-in 0.3s ease-in-out;
+}
+
+@keyframes logo1 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.form1 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 32.86%;
+    right: 32.86%;
+    top: 32.96%;
+    bottom: 32.96%;
+}
+
+.form1>h3 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.form1 input[type="text"]::placeholder {
+    color: #9e9683;
+}
+
+.form input[type="text"].ng-touched {
+    --border-radius2: 12px;
+    --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+    --color2: linear-gradient(to bottom, #141923, #141923);
+
+    border: solid 1.5px transparent;
+    border-radius: var(--border-radius2);
+    background-image: var(--color2), var(--gradient-color1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.form1 input[type="text"] {
+    --border-radius2: 12px;
+    --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+    --color2: linear-gradient(to bottom, #141923, #141923);
+
+
+    outline: none;
+
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+
+
+
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* form dimensions */
+    width: 300px;
+    height: 45px;
+
+    /* font */
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 0px;
+    text-indent: 7px;
+
+    color: #ffffff;
+    /* form padding */
+    border: solid 1.5px transparent;
+    border-radius: var(--border-radius2);
+    background-image: var(--color2), var(--gradient-color1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.btn-disabled {
+    --gradient-color1: linear-gradient(to bottom, gray, gray);
+    --color2: linear-gradient(to bottom, white, white);
+    background-image: var(--color2), var(--gradient-color1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border: solid gray 0.7px;
+}
+
+.form1 button[type="submit"] {
+    --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+    --color2: linear-gradient(to bottom, #141923, #141923);
+
+    box-sizing: border-box;
+    position: absolute;
+
+    width: 155px;
+    height: 45px;
+
+    padding: 0px;
+
+    border-radius: 43.48px;
+
+    color: #ffffff;
+
+
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: solid 0.7px transparent;
+    background-image: var(--color2), var(--gradient-color1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+
+/* Tab View */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .box1 {
+        --border-radius: 52.5px;
+        --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+        --color1: linear-gradient(#000000, #000000);
+        --color2: liner-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) box-sizing: border-box;
+        position: absolute;
+        left: 32.86%;
+        right: 32.86%;
+        top: 32.96%;
+        bottom: 32.96%;
+
+        border: solid 1.5px transparent;
+        border-radius: 30px;
+        background-image: var(--color1), var(--gradient-color1);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+
+    .logo1 {
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /* width: 76%;
+        height: 79%; */
+    }
+
+    .logo1>img {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* width: 60px;
+        height: 60px; */
+
+        animation: zoom-in 0.3s ease-in-out;
+    }
+
+    @keyframes logo1 {
+        from {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    .form1 {
+        box-sizing: border-box;
+        position: absolute;
+        left: 32.86%;
+        right: 32.86%;
+        top: 32.96%;
+        bottom: 32.96%;
+    }
+
+    .form1>h3 {
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 54px;
+        letter-spacing: 0.01em;
+        text-align: center;
+    }
+
+    .form1 input[type="text"]::placeholder {
+        color: #9e9683;
+    }
+
+    .form input[type="text"].ng-touched {
+        --border-radius2: 12px;
+        --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+        --color2: linear-gradient(to bottom, #141923, #141923);
+
+        border: solid 1.5px transparent;
+        border-radius: var(--border-radius2);
+        background-image: var(--color2), var(--gradient-color1);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+
+    .form1 input[type="text"] {
+        --border-radius2: 12px;
+        --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+        --color2: linear-gradient(to bottom, #141923, #141923);
+
+
+        outline: none;
+
+        box-sizing: border-box;
+        position: absolute;
+        display: block;
+
+
+
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /* form dimensions */
+        width: 300px;
+        height: 45px;
+
+        /* font */
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        padding: 0px;
+        text-indent: 7px;
+
+        color: #ffffff;
+        /* form padding */
+        border: solid 1.5px transparent;
+        border-radius: var(--border-radius2);
+        background-image: var(--color2), var(--gradient-color1);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+
+    .btn-disabled {
+        --gradient-color1: linear-gradient(to bottom, gray, gray);
+        --color2: linear-gradient(to bottom, white, white);
+        background-image: var(--color2), var(--gradient-color1);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        border: solid gray 0.7px;
+    }
+
+    .form1 button[type="submit"] {
+        --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+        --color2: linear-gradient(to bottom, #141923, #141923);
+
+        box-sizing: border-box;
+        position: absolute;
+
+        width: 155px;
+        height: 45px;
+
+        padding: 0px;
+
+        border-radius: 43.48px;
+
+        color: #ffffff;
+
+
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        border: solid 0.7px transparent;
+        background-image: var(--color2), var(--gradient-color1);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+
+}

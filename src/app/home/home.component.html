@@ -1,0 +1,15 @@
+<div class="box1" [@scale] *ngIf="showDiv">
+    <div class="logo1">
+        <img src="assets/Logo-01.png" width="270" height="100" />
+    </div>
+</div>
+<div class="form1" *ngIf="formDiv">
+    <h3 class="form1-heading">What is your name?</h3>
+    <form class="form1" [formGroup]="form1" (ngSubmit)="onSubmit()" autocomplete="off">
+        <input type="text" placeholder="-Type here-" name="name" formControlName="name" />
+        <button type="submit" 
+        [disabled]="form1.invalid"
+        [ngClass]="{ 'btn-disabled': form1.invalid}">Next</button>
+        <!-- <button type="submit" [disabled]="!myForm.valid" [ngStyle]="{'background-color': !myForm.valid ? 'gray' : 'green'}">Submit</button> -->
+    </form>
+</div> 

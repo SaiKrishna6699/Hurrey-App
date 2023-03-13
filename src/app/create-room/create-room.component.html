@@ -1,0 +1,13 @@
+<div class="box4" [@moveFromRight]>
+    <div class="sub-box">
+        <img class="avatar inline" [src]="avatar"><p class="profile-name inline">{{name}}</p>
+    </div>
+    <div class="form1" autocomplete="off">
+        <form class="form1" [formGroup]="form1" (ngSubmit)="onSubmit()">
+            <input type="text" placeholder="-Type Room Name here-" name="roomname" formControlName="roomname" />
+            <input type="number" placeholder="-Type Room Strength here-" name="roomlength" formControlName="roomlength" />
+            <button type="submit" [disabled]="form1.invalid" [ngClass]="{ 'btn-disabled': form1.invalid}">Next</button>
+            <!-- <button type="submit" [disabled]="!myForm.valid" [ngStyle]="{'background-color': !myForm.valid ? 'gray' : 'green'}">Submit</button> -->
+        </form>
+    </div>
+</div>

@@ -1,0 +1,267 @@
+.box2 {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 814px;
+    height: 360px;
+
+    color: #FFFFFF;
+}
+
+.sub-box1 {
+    position: relative;
+    top: 0%;
+    width: 814px;
+    height: 100px;
+}
+
+.heading1 {
+    font-size: 40px;
+    text-align: center;
+
+    position: relative;
+
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+
+}
+
+.sub-heading {
+    position: relative;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    font-size: 20px;
+
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.avatars-box {
+    width: 815px;
+}
+
+.avatar-subblock {
+    margin: 0%;
+    width: 814px;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.avatar-container {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    margin-right: 25px;
+
+    position: relative;
+    top: 30%;
+}
+
+.avatar-images {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin: 2px;
+}
+
+.form2{
+    position: absolute;
+    top: 20%;
+}
+
+button[type="submit"] {
+    --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+    --color2: linear-gradient(to bottom, #141923, #141923);
+
+    box-sizing: border-box;
+    position: absolute;
+
+    width: 155px;
+    height: 45px;
+
+    padding: 0px;
+
+    border-radius: 43.48px;
+
+    color: #ffffff;
+
+
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: solid 0.7px transparent;
+    background-image: var(--color2), var(--gradient-color1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.btn-disabled {
+    background-color: gray;
+    color: #ffffff;
+    border: solid gray 0.7px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+/* Tab View */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .box2 {
+        position: absolute;
+    
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 814px;
+        height: 360px;
+    
+        color: #FFFFFF;
+    }
+    
+    .sub-box1 {
+        position: relative;
+        top: 0%;
+        width: 814px;
+        height: 100px;
+    }
+    
+    .heading1 {
+        font-size: 40px;
+        text-align: center;
+    
+        position: relative;
+    
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+    
+    
+    }
+    
+    .sub-heading {
+        position: relative;
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        text-align: center;
+        font-size: 20px;
+    
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+    }
+    
+    .avatars-box {
+        width: 815px;
+    }
+    
+    .avatar-subblock {
+        margin: 0%;
+        width: 814px;
+        height: 160px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+    
+    .avatar-container {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        margin: 0;
+        margin-right: 25px;
+    
+        position: relative;
+        top: 30%;
+    }
+    
+    .avatar-images {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid #000000;
+        margin: 2px;
+    }
+    
+    .form2{
+        position: absolute;
+        top: 20%;
+    }
+    
+    button[type="submit"] {
+        --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+        --color2: linear-gradient(to bottom, #141923, #141923);
+    
+        box-sizing: border-box;
+        position: absolute;
+    
+        width: 155px;
+        height: 45px;
+    
+        padding: 0px;
+    
+        border-radius: 43.48px;
+    
+        color: #ffffff;
+    
+    
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        border: solid 0.7px transparent;
+        background-image: var(--color2), var(--gradient-color1);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    
+    .btn-disabled {
+        background-color: gray;
+        color: #ffffff;
+        border: solid gray 0.7px;
+    }
+    
+    input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+    
+}

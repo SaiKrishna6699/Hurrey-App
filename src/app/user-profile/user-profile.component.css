@@ -1,0 +1,195 @@
+.box3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 500px;
+    height: 270px;
+
+    padding: 0%;
+    margin: 0%;
+}
+
+.inline {
+    display: inline;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    position: relative;
+    left: 10%;
+    transform: translate(auto, -30%);
+}
+
+.profile-name {
+
+    font-size: 30px;
+
+    color: #ffffff;
+    line-height: 43px;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+
+    width: 400px;
+    height: 50px;
+
+
+    border: 1px solid transparent;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    text-indent: 5px;
+    left: 70%;
+    transform: translate(-50%);
+}
+
+.mini-box {
+    width: 500px;
+    height: 134px;
+
+    position: absolute;
+    top: 60%;
+    left: 60%;
+
+    transform: translate(-50%, -50%);
+
+
+}
+
+button[type="submit"] {
+    --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+    --color2: linear-gradient(to bottom, #141923, #141923);
+
+    box-sizing: border-box;
+
+    position: relative;
+    left: 20%;
+
+    transform: translate(auto, -50%);
+
+    margin-top: 16.5px;
+    margin-bottom: 16.5px;
+
+    width: 312px;
+    height: 50px;
+
+    padding: 0px;
+
+    border-radius: 43.48px;
+
+    color: #ffffff;
+
+
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    border: solid 0.7px transparent;
+    background-image: var(--color2), var(--gradient-color1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+
+}
+
+/* Tab View */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .box3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        width: 500px;
+        height: 270px;
+    
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .inline {
+        display: inline;
+    }
+    
+    .avatar {
+        width: 100px;
+        height: 100px;
+        border: 1px solid transparent;
+        position: relative;
+        left: 10%;
+        transform: translate(auto, -30%);
+    }
+    
+    .profile-name {
+    
+        font-size: 30px;
+    
+        color: #ffffff;
+        line-height: 43px;
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    
+        width: 400px;
+        height: 50px;
+    
+    
+        border: 1px solid transparent;
+        margin: auto;
+        position: absolute;
+        top: 10%;
+        text-indent: 5px;
+        left: 70%;
+        transform: translate(-50%);
+    }
+    
+    .mini-box {
+        width: 500px;
+        height: 134px;
+    
+        position: absolute;
+        top: 60%;
+        left: 60%;
+    
+        transform: translate(-50%, -50%);
+    
+    
+    }
+    
+    button[type="submit"] {
+        --gradient-color1: linear-gradient(180deg, #7B72CC 0%, #DC0078 33.33%, #3871D6 100%);
+        --color2: linear-gradient(to bottom, #141923, #141923);
+    
+        box-sizing: border-box;
+    
+        position: relative;
+        left: 20%;
+    
+        transform: translate(auto, -50%);
+    
+        margin-top: 16.5px;
+        margin-bottom: 16.5px;
+    
+        width: 312px;
+        height: 50px;
+    
+        padding: 0px;
+    
+        border-radius: 43.48px;
+    
+        color: #ffffff;
+    
+    
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    
+        border: solid 0.7px transparent;
+        background-image: var(--color2), var(--gradient-color1);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    
+    
+    }
+    
+}

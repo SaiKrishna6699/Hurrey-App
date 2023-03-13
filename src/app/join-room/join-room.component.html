@@ -1,0 +1,15 @@
+<div class="form1" [@moveFromRight]>
+    <div class="sub-box">
+        <img class="avatar inline" [src]="avatar">
+        <p class="profile-name inline">{{name}}</p>
+    </div>
+    <div class="mini-box">
+        <h3 class="form1-heading">Type Room Code below</h3>
+        <form class="form1" [formGroup]="form1" (ngSubmit)="onSubmit()" autocomplete="off">
+            <input type="number" placeholder="-Type here-" (wheel)="disableScroll($event)" name="code"
+                formControlName="code" />
+            <button type="submit" [disabled]="form1.invalid" [ngClass]="{ 'btn-disabled': form1.invalid}">Next</button>
+            <!-- <button type="submit" [disabled]="!myForm.valid" [ngStyle]="{'background-color': !myForm.valid ? 'gray' : 'green'}">Submit</button> -->
+        </form>
+    </div>
+</div>
